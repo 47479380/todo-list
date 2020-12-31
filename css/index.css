@@ -6,17 +6,24 @@
 }
 
 html{
-    overflow: auto;
-     background: transparent;
+    
+    background: transparent;
+}
+body{
+  
+    padding-top: 10px;
+    padding-bottom: 10px;
+  height: 502px;
 }
 .main{
-
+ 
     /*width: 100vw;*/
     /*height: 100vh;*/
     flow:horizontal;
     /*background-color: rgb(203, 210, 240);*/
 }
 .container{
+ 
     width: 400px;
     max-width: 400px;
     border-radius: 24px;
@@ -116,7 +123,8 @@ h1{
 }
 
 .todo-list{
-
+    max-height: 180px;
+    overflow: auto;
     flow:vertical;
 }
 
